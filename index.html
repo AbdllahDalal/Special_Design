@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/Normalize.css" />
+    <link rel="stylesheet" href="css/moster.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start Setting box -->
+    <div class="setting-box">
+      <div class="set"><i class="fa fa-gear"></i></div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Color</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#03a9f4"></li>
+            <li data-color="#00bcd4"></li>
+            <li data-color="#ffc107"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#607d8b"></li>
+          </ul>
+        </div>
+        <div class="option-box background-box">
+          <h4>Random Background</h4>
+          <span class="yes active" data-optine="yes">Yes</span>
+          <span class="no" data-optine="no">No</span>
+        </div>
+        <div class="option-box bullets-box">
+          <h4>Bullets Option</h4>
+          <span class="yes active" data-optine="yes">Yes</span>
+          <span class="no" data-optine="no">No</span>
+        </div>
+        <div class="reset-option">Reset Option</div>
+      </div>
+    </div>
+    <!-- end Setting box -->
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-title="about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-title="skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-title="gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-title="timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-title="contact">
+        <div class="tooltip">Contact us</div>
+      </div>
+    </div>
+    <!-- end nav bullets -->
+    <!-- start Landing page -->
+    <div class="Landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <header>
+          <div class="logo"><span>Special</span> Design</div>
+          <nav>
+            <i class="fas fa-bars toggle-menu"></i>
+            <ul class="links">
+              <li class="active"><a href="#Home" class="active">Home</a></li>
+              <li><a href="#About">About</a></li>
+              <li><a href="#Skills">Skills</a></li>
+              <li><a href="#Gallery">Gallery</a></li>
+              <li><a href="#Timeline">Timeline</a></li>
+              <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="text">
+          <h1>We Are <span>Kasper </span>We Make Art</h1>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem
+            mauris blandit aliquet elit, eget tincidunt nibh pulvinar.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end Landing page -->
+    <!-- start about us -->
+    <div class="container">
+      <div class="about-us" id="About">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+            Curabitur aliquet quam porttitor at sem mauris blandit aliquet elit,
+            eget tincidunt nibh pulvinar.
+          </p>
+        </div>
+        <div class="image-box">
+          <img src="image/about.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end about us -->
+    <!-- start skills -->
+    <div class="skills" id="Skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="45%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Python</div>
+          <div class="skill-progress">
+            <span data-progress="85%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">C++</div>
+          <div class="skill-progress">
+            <span data-progress="30%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end skills -->
+    <!-- start gallery -->
+    <div class="gallery" id="Gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="image-box">
+          <img src="image/landing-01.jpg" alt="image-1" />
+          <img src="image/landing-02.jpg" alt="image-2" />
+          <img src="image/landing-03.jpg" alt="image-3" />
+          <img src="image/landing-04.jpg" alt="image-4" />
+          <img src="image/landing-05.jpg" alt="image-5" />
+          <img src="image/cat-01.jpg" alt="" />
+          <img src="image/cat-02.jpg" alt="" />
+          <img src="image/cat-03.jpg" alt="" />
+          <img src="image/cat-04.jpg" alt="" />
+          <img src="image/cat-05.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <div class="timeline" id="Timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="year">2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="year">2020</div>
+          <div class="right">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+          <div class="cleatfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Test Head</h3>
+              <p>
+                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+                Curabitur aliquet quam Curabitur arcu erat, accumsan id
+                imperdiet et, porttitor at sem. Mauris blandit aliquet elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end   -->
+    <!-- Start Discount -->
+    <div class="discount" id="discount">
+      <div class="image">
+        <div class="content">
+          <h2>We Have A Discount</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi
+            asperiores consectetur, recusandae ratione provident necessitatibus,
+            cumque delectus commodi fuga praesentium beatae. Totam vel similique
+            laborum dicta aperiam odit doloribus corporis.
+          </p>
+          <img src="image/discount.png" alt="" />
+        </div>
+      </div>
+      <div class="form">
+        <div class="content">
+          <h2>Request A Discount</h2>
+          <form
+            action="https://elzerowebschool.github.io/HTML_And_CSS_Template_Three/"
+          >
+            <input
+              class="input"
+              type="text"
+              placeholder="Your Name"
+              name="name"
+            />
+            <input
+              class="input"
+              type="email"
+              placeholder="Your Email"
+              name="email"
+            />
+            <input
+              class="input"
+              type="text"
+              placeholder="Your Phone"
+              name="mobile"
+            />
+            <textarea
+              class="input"
+              placeholder="Tell Us About Your Needs"
+              name="message"
+            ></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- End Discount -->
+    <!-- Start Contact -->
+    <div class="contact" id="Contact">
+      <div class="container">
+        <div class="main-heading">
+          <h2>Contact Us</h2>
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Mauris blandit aliquet elit, eget tincidunt.
+          </p>
+        </div>
+        <div class="content" id="contact">
+          <form action="#">
+            <input
+              class="main-input"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="main-input"
+              type="email"
+              name="mail"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="main-input"
+              name="message"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" />
+          </form>
+          <div class="info">
+            <h4>Get In Touch</h4>
+            <span class="phone">+00 123.456.789</span>
+            <span class="phone">+00 123.456.789</span>
+            <h4>Where We Are</h4>
+            <address>
+              Awesome Address 17<br />New York, NYC<br />123-4567-890<br />USA
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="logo"><span>Special</span> Design</div>
+        <p>We Are Social</p>
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fas fa-home"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright">
+          © 2021 <span>Abdullah Dalal</span> All Right Reserved
+        </p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="js/moster.js"></script>
+  </body>
+</html>
