@@ -504,6 +504,24 @@ header .links li.active a {
   padding: 16px;
   background-color: aliceblue;
 }
+@media (max-width: 500px) {
+  .Popup-overlay .popup-box {
+    max-width: 380px;
+    padding: 10px;
+  }
+}
+@media (max-width: 400px) {
+  .Popup-overlay .popup-box {
+    max-width: 320px;
+    padding: 10px;
+  }
+}
+@media (max-width: 300px) {
+  .Popup-overlay .popup-box {
+    max-width: 250px;
+    padding: 10px;
+  }
+}
 .Popup-overlay .popup-box img {
   width: 100%;
 }
